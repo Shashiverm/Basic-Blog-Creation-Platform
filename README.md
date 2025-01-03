@@ -2,6 +2,9 @@
 
 A modern, user-friendly platform for creating and managing blogs with a clean and intuitive interface.
 
+## Links
+- Youtube <a href="https://youtu.be/-PAmVvEjkaE" target="_blank">Live Video</a>
+
 ## Features
 
 - Rich text editor with markdown support
