@@ -2,7 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import { Post } from './models/Post.js';
-import { Email } from './models/Email.js';
+//import { Email } from './models/Email.js';
 
 
 const app = express();
@@ -83,26 +83,26 @@ app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
-//email
-import { Email } from './models/Email.js';
+// //email
+// import { Email } from './models/Email.js';
 
-// Route to handle subscriptions
-app.post('/api/subscribe', async (req, res) => {
-  const { email } = req.body;
+// // Route to handle subscriptions
+// app.post('/api/subscribe', async (req, res) => {
+//   const { email } = req.body;
 
-  if (!email) {
-    return res.status(400).json({ message: 'Email is required' });
-  }
+//   if (!email) {
+//     return res.status(400).json({ message: 'Email is required' });
+//   }
 
-  try {
-    const newSubscriber = new Email({ email });
-    await newSubscriber.save();
-    res.status(201).json({ message: 'Subscription successful' });
-  } catch (error) {
-    if (error.code === 11000) {
-      res.status(400).json({ message: 'Email already subscribed' });
-    } else {
-      res.status(500).json({ message: 'Internal server error' });
-    }
-  }
-});
+//   try {
+//     const newSubscriber = new Email({ email });
+//     await newSubscriber.save();
+//     res.status(201).json({ message: 'Subscription successful' });
+//   } catch (error) {
+//     if (error.code === 11000) {
+//       res.status(400).json({ message: 'Email already subscribed' });
+//     } else {
+//       res.status(500).json({ message: 'Internal server error' });
+//     }
+//   }
+// });

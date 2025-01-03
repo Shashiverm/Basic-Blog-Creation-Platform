@@ -13,11 +13,14 @@ A modern, user-friendly platform for creating and managing blogs with a clean an
 ## UI Samples
 
 ### Dashboard
-![Dashboard View](./assets/images/dashboard.png)
+![Dashboard View](./img/homepage.png)
 *Main dashboard interface with analytics and post management*
 
 ### Editor Interface
-![Editor Interface](./assets/images/editor.png)
+![Editor Interface](./img/edit_delete.png) <br>
+![New Post](./img/new_post.png) <br>
+![Data Base](./img/database.png) <br>
+![Directory](./img/directory.png)
 *Rich text editor with formatting tools*
 
 
