@@ -4,6 +4,7 @@ A modern, user-friendly platform for creating and managing blogs with a clean an
 
 ## Links
 - Youtube <a href="https://youtu.be/-PAmVvEjkaE" target="_blank">Live Video</a>
+- versel <a href="https://basic-blog-creation-platform.vercel.app/" target="_blank">Live Site</a>
 
 ## Features
 
