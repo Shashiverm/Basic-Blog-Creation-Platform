@@ -28,11 +28,4 @@ npm install blog-maker
 npm run setup
 npm start
 ```
-
-## Documentation
-
-For detailed documentation, please visit our [Wiki](./docs/wiki.md).
-
-## License
-
-MIT License - See [LICENSE](LICENSE) for details.
+-- Thanks --
